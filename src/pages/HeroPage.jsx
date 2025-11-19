@@ -1,5 +1,8 @@
 import React from 'react'
-
+import polygon from "../assets/Polygon2.png";
+import profile from "../assets/profile.png";
+import plant2 from "../assets/plant2.png";
+import rightarrow from "../assets/right-arrow.png"
 function HeroPage() {
   return (
     <div className=' flex   w-full '>
@@ -12,7 +15,7 @@ function HeroPage() {
 <div className='flex  gap-3.5 '>
     <div className='h-10 rounded-2xl  w-30 border-amber-50 text-white text-center border-2 p-1 '>Buy Now</div>
     <div className='rounded-full h-10 w-10 border-2 border-amber-50 '>
-        <img className='h-4 w-4 ml-3 text-white mt-3 items-center ' src="src\assets\Polygon 2.png" alt="" />
+        <img className='h-4 w-4 ml-3 text-white mt-3 items-center ' src={polygon} alt="" />
     </div>
     <p className='text-white mt-2'>Live Demo...</p>
 </div>
@@ -20,7 +23,7 @@ function HeroPage() {
 
 <div className='h-40  w-70  from-white/40 to-white/5 border-2 border-white backdrop-blur-xl  mt-35 rounded-2xl'>
     <div className='flex gap-2 p-6'>
-        <img className='h-10 w-10 rounded-full' src="src\assets\profile.png" alt="" />
+        <img className='h-10 w-10 rounded-full' src={profile} alt="" />
         <p className='font-medium mt-1 text-white'>Ronnie Hamill</p>
 
     </div>
@@ -35,11 +38,11 @@ function HeroPage() {
       {/* //right part */}
       <div className='right'>
         <div className='w-80 h-110 rounded-tl-4xl rounded-t-[48px] ml-[470px] border-2 border-amber-50  backdrop-blur-md  '>
-<img src="src\assets\plant2.png" alt="" />
+<img src={plant2} alt="" />
 <p className='ml-2'>Indoor plant</p>
 <div className='flex gap-4'>
     <h2 className='text-2xl text-white '>Aglaonema plant</h2>
-    <img className='h-4 mt-2.5 w-4 ' src="src\assets\right-arrow.png" alt="" />
+    <img className='h-4 mt-2.5 w-4 ' src={rightarrow} alt="" />
 
 </div>
   <div className='h-10 rounded-2xl  w-30 border-amber-50 text-white text-center border-2 p-1 '>Buy Now</div>
