@@ -1,42 +1,48 @@
 import React from 'react'
 import SectionTitle from '../components/SectionTitle'
 import TopSellingCard from '../components/TopSellingCard'
+import plant2 from "../assets/plant2.png";
+import rose from "../assets/rose.png"
+import swiss from "../assets/swiss.png"
+import cactus from "../assets/cactus.png"
+import sanse from "../assets/sanse.png"
+import agare from "../assets/agare.png"
 
 function TopSelling() {
    const data =[
-    {   img :"src/assets/plant2.png",
+    {   img :{plant2},
         name :"Aglaonema plant",
       description:"The Aglaonema plant, commonly known as Chinese Evergreen known for its attractive foliage and ease of care",
        price:"300" 
 
     },
       { 
-         img :"src/assets/rose.png",
+         img :{rose},
          name :"Plantain Lilies",
       description:"Hostas are primarily grown for their lush, decorative leaves, which come in a wide variety of shapes, sizes,",
        price:"380" 
 
     },
-      { img :"src/assets/cactus.png",
+      { img :{cactus},
          name :"Cactus",
       description:"It is known for their ability to thrive in arid environments",
        price:"259" 
 
     },
-      { img :"src/assets/swiss.png",
+      { img :{swiss},
          name :"Swiss cheese Plant",
       description:"It is a popular tropical houseplant known for its distinctive, perforated leaves",
        price:"400" 
 
     },
-      {  img :"src/assets/sanse.png",
+      {  img :{sanse},
         name :"Sansevieria plant",
       description:"It is a popular indoor plant admired for its striking appearance and low-maintenance nature.",
        price:"450" 
 
     },
       {
-         img :"src/assets/agare.png",
+         img :{agare},
           name :"Agave plant",
       description:"The Agave plant is a genus of succulent plants known for their striking rosette of thick, fleshy leaves and architectural forms.",
        price:"359" 
