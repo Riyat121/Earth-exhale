@@ -1,6 +1,8 @@
 import React from 'react'
 import SectionTitle from '../components/SectionTitle'
-
+import rightarrow3 from "assests/right-arrow3.png";
+import rightarrow4 from "assests/right-arrow4.png";
+import plant2 from "assests/plant2.png";
 const BestO2 = () => {
   return (
     <div className='h-full w-full bg-[#1B2316]'>
@@ -9,7 +11,7 @@ const BestO2 = () => {
 <div className='h-100  relative overflow-visible w-[75%] border-2 mx-auto mt-20 rounded-3xl ml-40 flex bg-white/5 border-amber-50'>
 
 <div className='h-full w-280'>
-    <img className='h-120 absolute -ml-8 w-120 -top-23' src="src\assets\plant2.png" alt="" />
+    <img className='h-120 absolute -ml-8 w-120 -top-23' src={plant2} alt="" />
 </div>
 <div className='mt-18 text-white'>
 
@@ -20,11 +22,11 @@ const BestO2 = () => {
      <button className=" border mt-3 h-9 w-20 border-white rounded-lg">
           Explore
         </button>
-        <img className='h-4 w-5 mt-5 ml-90' src="src\assets\right-arrow 3.png" alt="" />
+        <img className='h-4 w-5 mt-5 ml-90' src={rightarrow3} alt="" />
         <p  className='text-[19px] mt-3 ml-8 font-bold text-white'>01/
             <span className='text-[13px]  text-white'>04</span>
         </p>
-        <img className='h-4 ml-8 w-5 mt-5' src="src\assets\right-arrow4.png" alt="" />
+        <img className='h-4 ml-8 w-5 mt-5' src={rightarrow4} alt="" />
 </div>
 
 </div>

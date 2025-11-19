@@ -42,7 +42,7 @@ function TopSelling() {
 
     },
       {
-         img :{agare},
+         img :agare,
           name :"Agave plant",
       description:"The Agave plant is a genus of succulent plants known for their striking rosette of thick, fleshy leaves and architectural forms.",
        price:"359" 

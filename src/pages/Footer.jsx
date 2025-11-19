@@ -1,11 +1,11 @@
 import React from 'react'
-
+import plant from "assests/plant.png";
 function Footer() {
   return (
     <div className='min-h-screen flex w-full bg-[#1B2316]'>
       <div className=' h-[70%] w-[40%]'>
 <div className='flex ml-20'>
-<img className='h-15 w-15' src="src\assets\plant.png" alt="" />
+<img className='h-15 w-15' src={plant} alt="" />
 <h2 className='font-bold text-3xl mt-3.5 text-white'>FloraVision.</h2>
 </div>
 <p className='mt-3 font-medium text-white ml-20'>"From lush indoor greens to vibrant outdoor blooms, our plants are crafted to thrive and elevate your living environment."</p>
