@@ -10,32 +10,32 @@ import agare from "../assets/agare.png"
 
 function TopSelling() {
    const data =[
-    {   img :{plant2},
+    {   img :plant2,
         name :"Aglaonema plant",
       description:"The Aglaonema plant, commonly known as Chinese Evergreen known for its attractive foliage and ease of care",
        price:"300" 
 
     },
       { 
-         img :{rose},
+         img :rose,
          name :"Plantain Lilies",
       description:"Hostas are primarily grown for their lush, decorative leaves, which come in a wide variety of shapes, sizes,",
        price:"380" 
 
     },
-      { img :{cactus},
+      { img :cactus,
          name :"Cactus",
       description:"It is known for their ability to thrive in arid environments",
        price:"259" 
 
     },
-      { img :{swiss},
+      { img :swiss,
          name :"Swiss cheese Plant",
       description:"It is a popular tropical houseplant known for its distinctive, perforated leaves",
        price:"400" 
 
     },
-      {  img :{sanse},
+      {  img :sanse,
         name :"Sansevieria plant",
       description:"It is a popular indoor plant admired for its striking appearance and low-maintenance nature.",
        price:"450" 
