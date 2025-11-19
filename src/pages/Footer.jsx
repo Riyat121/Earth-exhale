@@ -1,5 +1,5 @@
 import React from 'react'
-import plant from "..assets/plant.png";
+import plant from "../assets/plant.png";
 function Footer() {
   return (
     <div className='min-h-screen flex w-full bg-[#1B2316]'>
