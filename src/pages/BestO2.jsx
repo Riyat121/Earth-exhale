@@ -1,8 +1,8 @@
 import React from 'react'
 import SectionTitle from '../components/SectionTitle'
-import rightarrow3 from "assests/right-arrow3.png";
-import rightarrow4 from "assests/right-arrow4.png";
-import plant2 from "assests/plant2.png";
+import rightarrow3 from "assets/right-arrow3.png";
+import rightarrow4 from "assets/right-arrow4.png";
+import plant2 from "assets/plant2.png";
 const BestO2 = () => {
   return (
     <div className='h-full w-full bg-[#1B2316]'>
