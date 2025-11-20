@@ -16,7 +16,7 @@ function ProductPage() {
       className="relative max-h-full  w-full bg-cover  bg-center"
       style={{
         backgroundImage: `url(${bgImg})`,
-        height:"1700px"
+        height:"1900px"
       }}
     >
       

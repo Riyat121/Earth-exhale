@@ -5,8 +5,10 @@ import rightarrow4 from "../assets/right-arrow4.png";
 import plant2 from "../assets/plant2.png";
 const BestO2 = () => {
   return (
-    <div className='h-full w-full bg-[#1B2316]'>
-<SectionTitle title="Our Best o2"/>
+    <div className='h-full font-inter w-full bg-[#1B2316]'>
+<div className='ml-27'>
+  <SectionTitle title="Our Best o2"/>
+</div>
 
 <div className='h-100  relative overflow-visible w-[75%] border-2 mx-auto mt-20 rounded-3xl ml-40 flex bg-white/5 border-amber-50'>
 
@@ -15,16 +17,16 @@ const BestO2 = () => {
 </div>
 <div className='mt-18 text-white'>
 
-<h2 className='text-[30px]  font-bold'>We Have Small And Best O2 Plants Collection’s</h2>
-<p className='mt-4 text-[18px] '>Oxygen-producing plants, often referred to as "O2 plants," are those that release oxygen into the atmosphere through the process of photosynthesis.</p>
-<p className='mt-4 text-[18px] '>Many plants can help filter out pollutants and toxins from the air, such as formaldehyde, benzene, and trichloroethylene. This makes the air cleaner and healthier to breathe.</p>
+<h2 className='text-[30px] font-inter font-bold'>We Have Small And Best O2 Plants Collection’s</h2>
+<p className='mt-4 text-[18px] font-inter '>Oxygen-producing plants, often referred to as "O2 plants," are those that release oxygen into the atmosphere through the process of photosynthesis.</p>
+<p className='mt-4 text-[18px] font-inter '>Many plants can help filter out pollutants and toxins from the air, such as formaldehyde, benzene, and trichloroethylene. This makes the air cleaner and healthier to breathe.</p>
 <div className='flex'>
-     <button className=" border mt-3 h-9 w-20 border-white rounded-lg">
+     <button className=" font-inter border mt-3 h-9 w-20 border-white rounded-lg">
           Explore
         </button>
         <img className='h-4 w-5 mt-5 ml-90' src={rightarrow3} alt="" />
-        <p  className='text-[19px] mt-3 ml-8 font-bold text-white'>01/
-            <span className='text-[13px]  text-white'>04</span>
+        <p  className='text-[19px] font-inter mt-3 ml-8 font-bold text-white'>01/
+            <span className='text-[13px] font-inter  text-white'>04</span>
         </p>
         <img className='h-4 ml-8 w-5 mt-5' src={rightarrow4} alt="" />
 </div>

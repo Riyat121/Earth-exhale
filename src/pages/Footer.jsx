@@ -19,8 +19,8 @@ function Footer() {
 
 
       <div className=' h-[70%]  ml-20'>
-        <h2 className='text-white text-2xl font-medium'>Quick Link’s</h2>
-        <ul className='text-white mt-5 underline '>
+        <h2 className='text-white text-2xl font-inter font-medium'>Quick Link’s</h2>
+        <ul className='text-white font-inter mt-5 underline '>
             <li className='mb-2'>Home</li>
             <li className='mb-2'>Type’s Of plant’s</li>
             <li className='mb-2'>Contact</li>
@@ -28,20 +28,20 @@ function Footer() {
         </ul>
       </div>
       <div className='h-[70%] ml-50  text-white'>
-        <h2 className='text-2xl font-medium'>For Every Update.</h2>
+        <h2 className='text-2xl font-inter font-medium'>For Every Update.</h2>
 
    <div className="relative w-80 mt-6">
   <input
     type="text" placeholder="Enter text" className="h-10 w-full rounded-sm border-2 border-white bg-transparent placeholder:text-white text-white pl-3 pr-24"
   />
   <button
-    className="absolute right-1 top-1/2 -translate-y-1/2 
+    className="absolute font-inter right-1 top-1/2 -translate-y-1/2 
                bg-white text-black px-4 py-1 rounded-sm"
   >
     Subscribe
   </button>
 </div>
-<h3 className='mt-22'>FloraVision © all right reserve</h3>
+<h3 className='mt-22 font-inter'>FloraVision © all right reserve</h3>
 
 
       </div>

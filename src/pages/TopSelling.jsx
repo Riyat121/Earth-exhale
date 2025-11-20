@@ -50,10 +50,12 @@ function TopSelling() {
     },
 ]
   return (
-    <div className='bg-[#1B2316]  w-full'>
-    <SectionTitle title="Our Top Selling Plants" />
+    <div className='bg-[#1B2316] py-20 font-inter   relative w-full'>
+   <div className='h-0.5'>
+     <SectionTitle title="Our Top Selling Plants" />
+   </div>
 
-  <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 w-[90%] mx-auto '>
+  <div className='grid grid-cols-1 mt-50  sm:grid-cols-2 md:grid-cols-3 gap-10 w-[90%] mx-auto '>
 {data.map((item,index)=>(
     <TopSellingCard key={index} plant={item}/>
 ))}

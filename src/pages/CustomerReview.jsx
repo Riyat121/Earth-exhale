@@ -22,10 +22,10 @@ function CustomerReview() {
     ]
   return (
    
-  <div className='py-10 h-full bg-[#1B2316] w-full'>
+  <div className='py-10 h-full  bg-[#1B2316] w-full'>
       <SectionTitle title="Customer Reviews" />
 
-      <div className='grid grid-cols-1 md:grid-cols-3 gap-6 w-[90%] mx-auto mt-10'>
+      <div className='grid  grid-cols-1 md:grid-cols-3 gap-6 w-[90%] mx-auto mt-10'>
         {reviews.map((item, index) => (
           <Review key={index} reviews={item} />
         ))}

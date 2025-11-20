@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <div className='p-8 flex '>
       <img className='h-10 w-10 ' src={plant} alt="" />
-      <h2 className='font-black text-2xl font-Inter  text-amber-50'>FloraVision.</h2>
+      <h2 className='font-black text-2xl font-inter mt-2  text-amber-50'>FloraVision.</h2>
       <div className='items-center ml-90'>
         <ul className='flex font-indie Flower text-[18px]
 
