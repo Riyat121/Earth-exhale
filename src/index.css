@@ -1,4 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Boldonse&family=Indie+Flower&family=Inter:ital,opsz,wght@0,14..32,900;1,14..32,900&family=Montserrat:ital,wght@0,725;1,725&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@500&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Boldonse&family=Indie+Flower&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,725;1,725&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@500&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
+
+@theme {
+  --font-indie:"Indie Flower", cursive;
+     --font-inter: "Inter", sans-serif;
+}
+
 html, body {
   height: auto;
   overflow-x: hidden;

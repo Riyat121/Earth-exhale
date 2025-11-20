@@ -2,15 +2,21 @@ import React from 'react'
 import plant from "../assets/plant.png"
 import search from "../assets/search.png"
 import bag from "../assets/bag.png"
+import polygon from "../assets/Polygon1.png"
 function Navbar() {
   return (
     <div className='p-8 flex '>
       <img className='h-10 w-10 ' src={plant} alt="" />
-      <h2 className='font-bold text-2xl text-amber-50'>FloraVision.</h2>
+      <h2 className='font-black text-2xl font-Inter  text-amber-50'>FloraVision.</h2>
       <div className='items-center ml-90'>
-        <ul className='flex font-(family-name:Indie_Flower) text-[#FFFFFF] justify-center gap-5 '>
-            <li>Home</li>
-            <li>Plants Type</li>
+        <ul className='flex font-indie Flower text-[18px]
+
+ text-[#FFFFFF] justify-center gap-8 '>
+            <li >Home</li>
+          <div className='flex gap-1'>
+              <li>Plants Type</li>
+            <img className='h-2 mt-2 ' src={polygon} alt="" />
+          </div>
             <li>More</li>
             <li>Contact</li>
         </ul>
