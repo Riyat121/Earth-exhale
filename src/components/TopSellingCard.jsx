@@ -15,7 +15,7 @@ function TopSellingCard({plant}) {
       <div className='relative'>
         <img className='h-[290px] absolute -top-10 left-12 w-[300px] z-20 object-contain' src={img} alt="" />
         <div className='wavy-card h-[450px] ml-6 relative w-[380px] bg-white/5'>
-          <div className='ml-8 p-2 pt-[240px]'>
+          <div className='ml-8 p-2 pt-[240px] '>
             <h2 className='ml-3 text-white font-inter text-2xl'>{name}</h2>
             <p className='text-[13px] pr-4 ml-3 font-inter text-white'>{description}</p>
             <div className='flex gap-17 mt-5 items-center'>

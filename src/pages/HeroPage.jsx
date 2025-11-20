@@ -4,6 +4,7 @@ import profile from "../assets/profile.png";
 import plant2 from "../assets/plant2.png";
 import rightarrow from "../assets/right-arrow.png"
 import stars from "../assets/stars.png"
+import SectionTitle from '../components/SectionTitle';
 
 function HeroPage() {
   return (
@@ -63,7 +64,11 @@ function HeroPage() {
 
 </div>
         </div>
+    <div className='-ml-120'>
+            <SectionTitle title ="Our Trendy plants"/>
+    </div>
       </div>
+      
       </div>
     </>
   )

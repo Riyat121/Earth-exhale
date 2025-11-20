@@ -2,11 +2,11 @@ import React from 'react'
 import TrendyCard from '../components/TrendyCard'
 import plant1 from "../assets/Trendy1.png";
 import plant2 from "../assets/Trendy2.png"
-import SectionTitle from '../components/SectionTitle';
+
 function TrendyPlants() {
   return (
-    <div className='h-full mt-40  w-full '>
-   <SectionTitle title ="Our Trendy plants"/>
+    <div className='h-full   w-full '>
+ 
     <div className="w-[90%]  ml-10 mt-20">
           <TrendyCard 
         title="For Your Desks Decorations"

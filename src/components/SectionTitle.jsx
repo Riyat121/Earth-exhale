@@ -13,7 +13,7 @@ function SectionTitle({title}) {
           content: '';
           position: absolute;
           left: -30px;
-          top: 30%;
+          top: 90%;
           transform: translateY(-50%);
           width: 80px;
           height: 50px;
@@ -36,7 +36,7 @@ function SectionTitle({title}) {
         }
       `}</style>
 
-      <div className='min-h-30 product-card-container  w-fit border-gradient font-inter text-5xl text-white font-semibold items-center ml-[35%] border-green-300 bracket-container'>
+      <div className=' product-card-container  w-fit border-gradient font-inter text-5xl text-white font-semibold items-center ml-[35%] border-green-300 bracket-container'>
         {title}
       </div>
     </>
