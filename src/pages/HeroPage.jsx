@@ -73,10 +73,11 @@ function HeroPage() {
         <div className='h-1 w-1 bg-amber-50 rounded-full'></div>
       </div>
     </div>
-    <div className='w-full flex justify-center ml-9 lg:ml-1 xl:ml-16 mt-8 lg:mt-4'>
+    <div className='w-full flex -ml-112  mt-18 lg:mt-24'>
       <SectionTitle title="Our Trendy plants"/>
     </div>
   </div>
+  
 </div>
     </>
   )
