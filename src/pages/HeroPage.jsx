@@ -19,19 +19,33 @@ function HeroPage() {
         {/* left part */}
         <div className='left p-12'>
           <div className='earthExhale h-50 w-120'>
-            <h1 className='leading-[-1] text-amber-50 font-inter font-bold text-[65px]'>Earth's Exhale</h1>
-            <p className='text-white font-inter w-full leading-[-1]'>"Earth Exhale" symbolizes the purity and vitality of the Earth's natural environment and its essential role in sustaining life.</p>
+            <h1 className='leading-[-1] text-amber-50 font-inter font-bold md:text-6xl lg:text-[65px]'>Earth's Exhale</h1>
+          <p className="text-xs sm:text-base md:text-sm lg:text-xl text-white font-inter  mg:w-30 lg:w-170   leading-snug">
+  "Earth Exhale" symbolizes the purity and vitality of the Earth's natural environment and its essential role in sustaining life.
+</p>
+
             <br />
             <div className='flex gap-3.5'>
-              <div className='h-10 rounded-2xl w-30 border-amber-50 text-white text-center border-2 font-inter p-1'>Buy Now</div>
-              <div className='rounded-full h-10 w-10 border-2 border-amber-50'>
-                <img className='h-4 w-4 ml-3 text-white mt-3 items-center' src={polygon} alt="" />
-              </div>
-              <p className='text-white font-indie mt-2'>Live Demo...</p>
+           <div className="flex items-center gap-3 sm:gap-4">
+
+  <div className="h-9 sm:h-10 px-4 sm:px-5 rounded-2xl border-2 border-amber-50 text-white font-inter flex items-center justify-center text-sm sm:text-base">
+    Buy Now
+  </div>
+
+  <div className="rounded-full h-9 w-9 sm:h-10 sm:w-10 border-2 border-amber-50 flex items-center justify-center">
+    <img className="h-3 w-3 sm:h-4 sm:w-4" src={polygon} alt="" />
+  </div>
+
+  <p className="text-white font-indie text-sm sm:text-base">
+    Live Demo...
+  </p>
+
+</div>
+
             </div>
           </div>
 
-          <div className='h-40 ml-14 w-70 relative bg-white/5 from-white/40 to-white/5 border-2 border-white backdrop-blur-xl mt-35 rounded-2xl'>
+          <div className='h-40 ml-10 w-80 relative bg-white/5 from-white/40 to-white/5 border-2 border-white backdrop-blur-xl mt-35 rounded-2xl'>
             <div className='flex gap-2 p-6'>
               <img className='h-10 w-10 rounded-full' src={profile} alt="" />
               <p className='font-medium mt-1 font-inter text-white'>Ronnie Hamill</p>
@@ -44,30 +58,25 @@ function HeroPage() {
         </div>
 
         {/* right part */}
-         <div className='right h-[80%]  '>
-        <div className='w-90 h-220 rounded-4xl  wavy-card  relative  bg-white/5 mt-12  rounded-t-[48px] ml-[450px]  border-amber-50  backdrop-blur-md  '>
-<img className=' h-76 z-20 ml-4 object-contain' src={plant2} alt="" />
-<p className='ml-20 text-[18px] font-inter text-white'>Indoor plant</p>
-<div className='flex  gap-4'>
-    <h2 className='text-2xl ml-20 font-inter text-white '>Aglaonema plant</h2>
-    <img className='h-4 mt-2.5 w-4 ' src={rightarrow} alt="" />
-
-</div>
-  <div className='h-10 rounded-2xl ml-21 mt-3 w-30 font-inter border-amber-50 text-white text-center border-2 p-1 '>Buy Now</div>
-  <div className='flex mt-4 ml-30 gap-2 '>
-    <div className='w-5 h-1 bg-amber-50 rounded-3xl '></div>
-    <div className='h-1 w-1 bg-amber-50  rounded-full'></div>
-    <div className='h-1 w-1 bg-amber-50  rounded-full'></div>
-
-  </div>
-<div>
-
-</div>
-        </div>
-    <div className='-ml-120'>
-            <SectionTitle title ="Our Trendy plants"/>
+<div className='right h-[80%] w-full'>
+  <div className='w-[90%] max-w-[360px] sm:max-w-[340px] md:max-w-[360px] lg:w-90 h-auto min-h-[480px] sm:min-h-[530px] wavy-card relative bg-white/5 mt-8 sm:mt-10 lg:mt-12 rounded-t-[40px] sm:rounded-t-[48px] mx-auto lg:ml-[450px] lg:mr-0 backdrop-blur-md pb-6'>
+    <img className='h-56 sm:h-64 md:h-72 lg:h-76 w-full z-20 object-contain px-4' src={plant2} alt="" />
+    <p className='ml-8 sm:ml-12 md:ml-16 lg:ml-20 text-base sm:text-[18px] font-inter text-white'>Indoor plant</p>
+    <div className='flex gap-3 sm:gap-4 ml-8 sm:ml-12 md:ml-16 lg:ml-20'>
+      <h2 className='text-xl sm:text-2xl font-inter text-white'>Aglaonema plant</h2>
+      <img className='h-3.5 sm:h-4 mt-2 sm:mt-2.5 w-3.5 sm:w-4' src={rightarrow} alt="" />
     </div>
-      </div>
+    <div className='h-10 rounded-2xl ml-8 sm:ml-12 md:ml-16 lg:ml-21 mt-3 w-28 sm:w-30 font-inter border-amber-50 text-white text-center border-2 p-1 text-sm sm:text-base'>Buy Now</div>
+    <div className='flex mt-4 ml-16 sm:ml-20 md:ml-24 lg:ml-30 gap-2'>
+      <div className='w-4 sm:w-5 h-1 bg-amber-50 rounded-3xl'></div>
+      <div className='h-1 w-1 bg-amber-50 rounded-full'></div>
+      <div className='h-1 w-1 bg-amber-50 rounded-full'></div>
+    </div>
+  </div>
+  <div className='w-full flex justify-center  lg:-ml-110 mt-8 lg:mt-0'>
+    <SectionTitle title="Our Trendy plants"/>
+  </div>
+</div>
       
       </div>
     </>

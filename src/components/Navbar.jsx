@@ -5,11 +5,13 @@ import bag from "../assets/bag.png"
 import polygon from "../assets/Polygon1.png"
 function Navbar() {
   return (
-    <div className='p-8 flex '>
-      <img className='h-10 w-10 ' src={plant} alt="" />
+    <div className='p-6 items-center justify-between flex '>
+    <div className='flex  items-center gap-3 '>
+        <img className='h-10 w-10  ' src={plant} alt="" />
       <h2 className='font-black text-2xl font-inter mt-2  text-amber-50'>FloraVision.</h2>
-      <div className='items-center ml-90'>
-        <ul className='flex font-indie Flower text-[18px]
+    </div>
+      <div className='items-center '>
+        <ul className=' md:flex   font-indie Flower text-[18px]
 
  text-[#FFFFFF] justify-center gap-8 '>
             <li >Home</li>
@@ -21,7 +23,7 @@ function Navbar() {
             <li>Contact</li>
         </ul>
       </div>
-      <div className='flex ml-110 gap-6'>
+      <div className='flex md:flex  gap-6'>
         <img className='h-4 w-4 ' src={search} alt="" />
         <img  className='h-4 w-4 ' src={bag} alt="" />
         <div className="flex flex-col gap-1 ml-6">

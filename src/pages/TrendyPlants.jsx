@@ -5,7 +5,7 @@ import plant2 from "../assets/Trendy2.png"
 
 function TrendyPlants() {
   return (
-    <div className='h-full   w-full '>
+    <div className='  w-full '>
  
     <div className="w-[90%]  ml-10 mt-20">
           <TrendyCard 
