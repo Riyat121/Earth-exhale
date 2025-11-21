@@ -4,12 +4,7 @@ import BagCard from './BagCard'
 function TrendyCard({ title,reverse, description, price, image,  }) {
   return (
    <div
-  className={`bg-white/5 h-80   w-[95%] sm:w-[90%] md:w-[85%] lg:w-[80%] 
-              mx-auto sm:ml-8 md:ml-20 lg:ml-36
-              backdrop-blur-md border border-white/30 
-              rounded-[30px] sm:rounded-[40px] p-4 sm:p-6 md:p-8 
-              flex flex-col ${reverse ? "md:flex-row-reverse" : "md:flex-row"} 
-              items-center justify-between gap-6 sm:gap-8 md:gap-10`}
+  className={`bg-white/5 h-80   w-[95%] sm:w-[90%] md:w-[85%] lg:w-[80%]  mx-auto sm:ml-8 md:ml-20 lg:ml-36 backdrop-blur-md border border-white/30  rounded-[30px] sm:rounded-[40px] p-4 sm:p-6 md:p-8 flex flex-col ${reverse ? "md:flex-row-reverse" : "md:flex-row"}  items-center justify-between gap-6 sm:gap-8 md:gap-10`}
 >
   <div className="text-white  w-full md:max-w-md text-center md:text-left">
     <h2 className="text-xl sm:text-2xl font-semibold">{title}</h2>

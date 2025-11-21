@@ -10,16 +10,7 @@ const BestO2 = () => {
     <SectionTitle title="Our Best o2"/>
   </div>
 
-  <div className='h-auto min-h-[400px] sm:min-h-[450px] md:min-h-[500px] lg:h-100 
-                  relative overflow-visible 
-                  w-[95%] sm:w-[90%] md:w-[85%] lg:w-[75%] 
-                  border-2 mx-auto 
-                  mt-12 sm:mt-16 md:mt-20 
-                  rounded-2xl sm:rounded-3xl 
-                  flex flex-col md:flex-row 
-                  bg-white/5 border-amber-50 
-                  p-4 sm:p-6 md:p-8
-                  mb-16 sm:mb-20 md:mb-24'>
+  <div className='h-auto min-h-[400px] sm:min-h-[450px] md:min-h-[500px] lg:h-100  relative overflow-visible  w-[95%] sm:w-[90%] md:w-[85%] lg:w-[75%]  border-2 mx-auto  mt-12 sm:mt-16 md:mt-20  rounded-2xl sm:rounded-3xl  flex flex-col md:flex-row    bg-white/5 border-amber-50 p-4 sm:p-6 md:p-8  mb-16 sm:mb-20 md:mb-24'>
 
     <div className='h-auto w-full md:w-280 flex justify-center md:block mb-40 sm:mb-48 md:mb-0'>
       <img className='h-80 sm:h-96 md:h-120 w-auto md:absolute md:-ml-8 md:w-120 md:-top-20 lg:-top-23 object-contain' 

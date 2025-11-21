@@ -38,13 +38,10 @@ function Footer() {
       <input
         type="text" 
         placeholder="Enter text" 
-        className="h-10 w-full rounded-sm border-2 border-white bg-transparent 
-                   placeholder:text-white text-white pl-3 pr-24 text-sm sm:text-base"
+        className="h-10 w-full rounded-sm border-2 border-white bg-transparent  placeholder:text-white text-white pl-3 pr-24 text-sm sm:text-base"
       />
       <button
-        className="absolute font-inter right-1 top-1/2 -translate-y-1/2 
-                   bg-white text-black px-3 sm:px-4 py-1 rounded-sm text-sm sm:text-base
-                   hover:bg-amber-50 transition-colors"
+        className="absolute font-inter right-1 top-1/2 -translate-y-1/2 bg-white text-black px-3 sm:px-4 py-1 rounded-sm text-sm sm:text-base  hover:bg-amber-50 transition-colors"
       >
         Subscribe
       </button>
