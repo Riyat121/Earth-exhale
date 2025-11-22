@@ -8,3 +8,17 @@ This project is a pixel-perfect replica of a Figma design, built using React.js 
 
 The application maintains the exact visual hierarchy, spacing, and color system presented in the Figma file. Every component and layout has been implemented with precision to ensure a clean, modern, and professional aesthetic.
 
+<h2> ⚙️ Setup Instructions <h2/>
+
+Follow these steps to set up and run the project locally.
+
+1️⃣ Clone the Repository
+git clone https://github.com/your-Riyat121/Earth-exhale.git
+
+2️⃣ Navigate to the Project Folder
+cd your-Earth-exhale
+
+
+▶️ Run Instructions
+npm run dev
+npm start
