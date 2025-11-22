@@ -64,9 +64,9 @@ function HeroPage() {
         <h2 className='text-xl sm:text-2xl font-inter text-white'>Aglaonema plant</h2>
         <img className='h-3.5 sm:h-4 mt-2 sm:mt-2.5 w-3.5 sm:w-4' src={rightarrow} alt="" />
       </div>
-      <div className='h-10 rounded-2xl ml-8 sm:ml-12 md:ml-16 lg:ml-21 mt-3 w-28 sm:w-30 font-inter border-amber-50 text-white text-center border-2 p-1 text-sm sm:text-base cursor-pointer hover:bg-amber-50 hover:text-black transition-colors'>
+      <button className='h-10 rounded-2xl ml-8 sm:ml-12 md:ml-16 lg:ml-21 mt-3 w-28 sm:w-30 font-inter border-amber-50 text-white text-center border-2 p-1 text-sm sm:text-base cursor-pointer hover:bg-amber-50 hover:text-black transition-colors'>
         Buy Now
-      </div>
+      </button>
       <div className='flex mt-4 ml-16 sm:ml-20 md:ml-24 lg:ml-30 gap-2'>
         <div className='w-4 sm:w-5 h-1 bg-amber-50 rounded-3xl'></div>
         <div className='h-1 w-1 bg-amber-50 rounded-full'></div>
