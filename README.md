@@ -1,5 +1,6 @@
 
 <h1> 🌱 FloraVision – Modern Plant Store Website </h1>
+<h1>Website link https://earth-exhale.vercel.app/<h2/>
 
 <img width="1920" height="1006" alt="Screenshot (233)" src="https://github.com/user-attachments/assets/23b226cf-4fbe-4041-b2b1-8a9d1b62c3a1" />
 
@@ -22,3 +23,22 @@ cd your-Earth-exhale
 ▶️ Run Instructions
 npm run dev
 npm start
+
+<h2>🛠 Tech Stack</h2>
+
+Frontend Framework:
+React.js (Component-based architecture for dynamic UI)
+Vite (Fast development environment and bundler)
+
+Styling & UI:
+Tailwind CSS (Utility-first styling)
+Custom animations & transitions
+Responsive layout system (320px – 1440px)
+
+Assets & Icons:
+PNG/SVG Assets
+Optimized images for performance
+
+Additional Tools:
+ESLint (Code formatting & linting)
+Git & GitHub (Version control)
