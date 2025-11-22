@@ -14,7 +14,7 @@ const BestO2 = () => {
 
     <div className='h-auto w-full md:w-280 flex justify-center md:block mb-40 sm:mb-48 md:mb-0'>
       <img className='h-80 sm:h-96 md:h-120 w-auto md:absolute md:-ml-8 md:w-120 md:-top-20 lg:-top-23 object-contain' 
-           src={plant2} alt="" />
+           src={plant2} alt="plant2" />
     </div>
 
     <div className='mt-4 sm:mt-8 md:mt-18 text-white w-full md:max-w-2xl'>
@@ -34,11 +34,11 @@ const BestO2 = () => {
         </button>
         
         <div className='flex items-center gap-4 sm:gap-6 md:gap-8 ml-auto md:ml-0'>
-          <img className='h-4 w-5 cursor-pointer hover:opacity-70 transition-opacity' src={rightarrow3} alt="" />
+          <img className='h-4 w-5 cursor-pointer hover:opacity-70 transition-opacity' src={rightarrow3} alt="right arrow3" />
           <p className='text-base sm:text-lg md:text-[19px] font-inter font-bold text-white whitespace-nowrap'>
             01/<span className='text-xs sm:text-[13px] font-inter text-white'>04</span>
           </p>
-          <img className='h-4 w-5 cursor-pointer hover:opacity-70 transition-opacity' src={rightarrow4} alt="" />
+          <img className='h-4 w-5 cursor-pointer hover:opacity-70 transition-opacity' src={rightarrow4} alt="right arrow4" />
         </div>
       </div>
     </div>

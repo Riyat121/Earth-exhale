@@ -58,11 +58,11 @@ function HeroPage() {
   {/* right part */}
   <div className='right w-full lg:w-1/2 mt-8 lg:mt-0'>
     <div className='w-[90%] max-w-[360px] sm:max-w-[340px] md:max-w-[360px] lg:w-90 h-auto min-h-[480px] sm:min-h-[530px] wavy-card relative bg-white/5 mt-8 sm:mt-10 lg:mt-12 rounded-t-[40px] sm:rounded-t-[48px] mx-auto lg:ml-auto lg:mr-8 xl:mr-16 backdrop-blur-md pb-6'>
-      <img className='h-56 sm:h-64 md:h-72 lg:h-76 w-full z-20 object-contain px-4' src={plant2} alt="" />
+      <img className='h-56 sm:h-64 md:h-72 lg:h-76 w-full z-20 object-contain px-4' src={plant2} alt="plant2" />
       <p className='ml-8 sm:ml-12 md:ml-16 lg:ml-20 text-base sm:text-[18px] font-inter text-white'>Indoor plant</p>
       <div className='flex gap-3 sm:gap-4 ml-8 sm:ml-12 md:ml-16 lg:ml-20'>
         <h2 className='text-xl sm:text-2xl font-inter text-white'>Aglaonema plant</h2>
-        <img className='h-3.5 sm:h-4 mt-2 sm:mt-2.5 w-3.5 sm:w-4' src={rightarrow} alt="" />
+        <img className='h-3.5 sm:h-4 mt-2 sm:mt-2.5 w-3.5 sm:w-4' src={rightarrow} alt="rightarrow" />
       </div>
       <button className='h-10 rounded-2xl ml-8 sm:ml-12 md:ml-16 lg:ml-21 mt-3 w-28 sm:w-30 font-inter border-amber-50 text-white text-center border-2 p-1 text-sm sm:text-base cursor-pointer hover:bg-amber-50 hover:text-black transition-colors'>
         Buy Now

@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <div className='p-6 items-center justify-between flex '>
     <div className='flex  items-center gap-3 '>
-        <img className='h-10 w-10  ' src={plant} alt="" />
+        <img className='h-10 w-10  ' src={plant} alt="plant" />
       <h2 className='font-black text-2xl font-inter mt-2  text-amber-50'>FloraVision.</h2>
     </div>
       <div className='items-center '>
@@ -17,15 +17,15 @@ function Navbar() {
             <li >Home</li>
           <div className='flex gap-1'>
               <li>Plants Type</li>
-            <img className='h-2 mt-2 ' src={polygon} alt="" />
+            <img className='h-2 mt-2 ' src={polygon} alt="polygon" />
           </div>
             <li>More</li>
             <li>Contact</li>
         </ul>
       </div>
       <div className='flex md:flex  gap-6'>
-        <img className='h-4 w-4 ' src={search} alt="" />
-        <img  className='h-4 w-4 ' src={bag} alt="" />
+        <img className='h-4 w-4 ' src={search} alt="search" />
+        <img  className='h-4 w-4 ' src={bag} alt="bag" />
         <div className="flex flex-col gap-1 ml-6">
   <div className="w-6 h-1 rounded-2xl  bg-white"></div>
   <div className="w-3 h-1 ml-3 rounded-2xl  bg-white"></div>
