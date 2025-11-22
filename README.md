@@ -13,7 +13,7 @@ The application maintains the exact visual hierarchy, spacing, and color system 
 Follow these steps to set up and run the project locally.
 
 1️⃣ Clone the Repository
-git clone https://github.com/your-Riyat121/Earth-exhale.git
+git clone [https://github.com/your-Riyat121/Earth-exhale.git](https://github.com/Riyat121/Earth-exhale)
 
 2️⃣ Navigate to the Project Folder
 cd your-Earth-exhale
